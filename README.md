@@ -1,1 +1,1 @@
-# YammerReadAll
+<div id="OutputLink" ng-class="output ? '' : 'disabled'" class="">Drag this link to your bookmarks bar: <a id="OutputHref" ng-attr-href="{{ output }}" href="javascript:void%20function(){var%20t=function(){history.back(),setTimeout(i,400)},i=function(){var%20n=jQuery(%22[class='yj-inbox-list-container%20yj-inbox-unread-list']%20li:first%20a%22),e=jQuery(%22%23moreButton%20button%22);n.length%3F(n.click(),setTimeout(t,400)):e.length%26%26(e.click(),setTimeout(i,1e3))};i()}();">My Bookmarklet</a></div>
