@@ -20,8 +20,10 @@ You have two options of doing it:
 ### FAQ
 What will happen if Yammer will change it's layout? 
 > Sad news, it will stop working, Good news it should be easy to adjust and fix bookmarklet. I'll try to update it ASAP, however pull requests are more than welcome
-
+What is bookmarklet?
+> Please read it [here]
  
 [Yammer]:http://yammer.com/
-[bookmarklet]:https://en.wikipedia.org/wiki/Bookmarklet
-[Bookmarklet Home]:http://sitox.github.io/YammerReadAll/Index.html
+[bookmarklet]:https://sitox.github.io/YammerReadAll/
+[Bookmarklet Home]:https://sitox.github.io/YammerReadAll/
+[here]:https://en.wikipedia.org/wiki/Bookmarklet
