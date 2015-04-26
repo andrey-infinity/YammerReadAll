@@ -1,1 +1,27 @@
-<div id="OutputLink" ng-class="output ? '' : 'disabled'" class="">Drag this link to your bookmarks bar: <a id="OutputHref" ng-attr-href="{{ output }}" href="javascript:void%20function(){var%20t=function(){history.back(),setTimeout(i,400)},i=function(){var%20n=jQuery(%22[class='yj-inbox-list-container%20yj-inbox-unread-list']%20li:first%20a%22),e=jQuery(%22%23moreButton%20button%22);n.length%3F(n.click(),setTimeout(t,400)):e.length%26%26(e.click(),setTimeout(i,1e3))};i()}();">My Bookmarklet</a></div>
+# Yammer Read All
+
+[Yammer] does not have functionality to mark all message in “Inbox” as read. 
+This [bookmarklet] fixes this behavior.
+
+Javascript will navigate to each one of your unread messages, which will mark them as "read".
+You have two options of doing it:
+### Using Bookmarklet
+-   Navigate to [Bookmarklet Home] and drag link into your bookmark bar
+-   Navigate into your Yammer Inbox 
+-   Click on bookmarklet
+-   Enjoy code doing your manual work.
+   
+### Manual
+-   Navigate into your Yammer Inbox
+-   Open your browser console (F12)
+-   Copy and paste JavaScript code from YammerReadAll.js into console and press Enter
+-   Enjoy code doing your manual work.
+
+### FAQ
+What will happen if Yammer will change it's layout? 
+> Sad news, it will stop working, Good news it should be easy to adjust and fix bookmarklet. I'll try to update it ASAP, however pull requests are more than welcome
+
+ 
+[Yammer]:http://yammer.com/
+[bookmarklet]:https://en.wikipedia.org/wiki/Bookmarklet
+[Bookmarklet Home]:http://sitox.github.io/YammerReadAll/Index.html
